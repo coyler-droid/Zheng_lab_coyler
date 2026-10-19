@@ -1,0 +1,45 @@
+# ---------------------------------------------------------------------------
+# DATA -- never commit photos, labels or anything derived from them
+# ---------------------------------------------------------------------------
+anon_images/
+anon_images_unused/
+*.jpg
+*.jpeg
+*.png
+*.tif
+*.tiff
+*.csv
+*.npy
+*.npz
+*.joblib
+*.gz
+fixed_test_ids*.txt
+retest_protocol/
+label_review*/
+
+# ---------------------------------------------------------------------------
+# Pipeline outputs (re-created by running the stages)
+# ---------------------------------------------------------------------------
+processed/
+cache/
+figures/
+cv_results/
+models/
+archive/
+splits_meta.json
+mask_meta.json
+showcase_candidates.json
+frozen_config.json
+final_test_*.json
+run_log.txt
+
+# ---------------------------------------------------------------------------
+# Python / editors
+# ---------------------------------------------------------------------------
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+.vscode/
+.idea/
